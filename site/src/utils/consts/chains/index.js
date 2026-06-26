@@ -5,6 +5,7 @@ import westmint from "./westmint";
 import collectives from "./collectives";
 import kusama from "./kusama";
 import polkadot from "./polkadot";
+import pezkuwichain from "./pezkuwichain";
 import gargantua from "./gargantua";
 // import hydradxTestnet from "./hydradxTestnet";
 import peopleKusama from "./people-kusama";
@@ -34,6 +35,7 @@ import frequency from "./frequency";
 import bulletinPolkadot from "./bulletin-polkadot";
 
 const chains = {
+  pezkuwi: pezkuwichain,
   polkadot,
   statemint,
   "bridgehub-polkadot": bridgehubPolkadot,
